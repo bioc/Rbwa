@@ -1,0 +1,5 @@
+export(bwa_aln)
+export(bwa_mem)
+export(bwa_sam)
+export(bwa_build_index)
+export(xa2multi)
