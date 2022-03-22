@@ -10,9 +10,6 @@ test_that("Incorrect inputs", {
     expect_error(
         bwa_build_index(fasta=gsub(".fa", "", fasta))
     )
-    expect_warning(
-        bwa_build_index(fasta=fasta, a="something else")
-    )
 })
 
 test_that("Index generation", {

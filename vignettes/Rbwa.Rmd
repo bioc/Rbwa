@@ -32,7 +32,6 @@ options("knitr.graphics.auto_pdf"=TRUE, eval=TRUE)
 
 The `r Biocpkg("Rbwa")` package provides an **R** wrapper around the two popular
 *BWA*  aligners `BWA-backtrack` [@bwa1] and `BWA-MEM` [@bwa2].
-For more details about the two alignment methods, see the
 
 As mentioned in the BWA manual (see http://bio-bwa.sourceforge.net/bwa.shtml),
 BWA-backtrack is designed for short Illumina reads

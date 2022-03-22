@@ -62,6 +62,10 @@ xa2multi <- function(input_sam_file,
                    program,
                    input_sam_file,
                    output_sam_file)
-    system(cmd)
+    args <- sprintf("%s %s > %s",
+                   program,
+                   input_sam_file,
+                   output_sam_file)
+    system2("perl", args)
     invisible(NULL)
 }

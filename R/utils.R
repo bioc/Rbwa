@@ -4,9 +4,9 @@
              " with additional arguments")
     }
     args <- gsub("^ *| *$", "", args)
+    args <- unlist(strsplit(args, split=" "))
     bin  <- file.path(system.file(package="Rbwa"), "bwa")
-    call <- paste(shQuote(bin), args)
-    output <- system(call, intern=TRUE)
+    output <- system2(bin, args)
     return(output)
 }
 
