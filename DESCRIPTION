@@ -16,7 +16,7 @@ Description: Provides an R wrapper for BWA alignment algorithms.
     Both BWA-backtrack and BWA-MEM are available.
     Convenience function to build a BWA index from a reference genome
     is also provided. Currently not supported for Windows machines.
-License: GPL-3
+License: MIT + LICENSE
 URL: https://github.com/Jfortin1/Rbwa
 BugReports: https://github.com/Jfortin1/Rbwa/issues
 biocViews: Sequencing, Alignment
