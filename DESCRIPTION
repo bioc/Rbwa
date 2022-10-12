@@ -1,6 +1,6 @@
 Package: Rbwa
-Version: 1.1.0
-Date: 2022-03-22
+Version: 1.1.1
+Date: 2022-10-12
 Title: R wrapper for BWA-backtrack and BWA-MEM aligners
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre")))
@@ -16,7 +16,7 @@ Description: Provides an R wrapper for BWA alignment algorithms.
     Both BWA-backtrack and BWA-MEM are available.
     Convenience function to build a BWA index from a reference genome
     is also provided. Currently not supported for Windows machines.
-License: MIT + LICENSE
+License: MIT + file LICENSE
 URL: https://github.com/Jfortin1/Rbwa
 BugReports: https://github.com/Jfortin1/Rbwa/issues
 biocViews: Sequencing, Alignment
