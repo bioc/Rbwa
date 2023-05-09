@@ -1,6 +1,6 @@
 Package: Rbwa
-Version: 1.3.2
-Date: 2023-02-20
+Version: 1.3.3
+Date: 2023-05-09
 Title: R wrapper for BWA-backtrack and BWA-MEM aligners
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre")))
@@ -18,7 +18,7 @@ Description: Provides an R wrapper for BWA alignment algorithms.
     is also provided. Currently not supported for Windows machines.
 License: MIT + file LICENSE
 URL: https://github.com/Jfortin1/Rbwa
-BugReports: https://github.com/Jfortin1/Rbwa/issues
+BugReports: https://github.com/crisprVerse/Rbwa/issues
 biocViews: Sequencing, Alignment
 VignetteBuilder: knitr
 RoxygenNote: 7.1.2
