@@ -1,5 +1,5 @@
 Package: Rbwa
-Version: 1.7.0
+Version: 1.8.0
 Date: 2023-06-29
 Title: R wrapper for BWA-backtrack and BWA-MEM aligners
 Authors@R: c(
