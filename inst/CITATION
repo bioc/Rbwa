@@ -13,14 +13,14 @@ citEntry(
 
 citEntry(
     entry = "article",
-  title="Fast and accurate short read alignment with Burrows--Wheeler transform",
-  author="Li, Heng and Durbin, Richard",
-  journal="Bioinformatics",
-  volume="25",
-  number="14",
-  pages="1754--1760",
-  year="2009",
-  textVersion="Li H, Durbin R. Fast and accurate short read alignment with Burrows–Wheeler transform. Bioinformatics. 2009 Jul 15;25(14):1754-60."
+    title = "Fast and accurate short read alignment with Burrows-Wheeler transform",
+    author = "Heng Li and Richard Durbin",
+    journal = "Bioinformatics",
+    volume="25",
+    number="14",
+    pages="1754-1760",
+    year="2009",
+    textVersion="Li H, Durbin R. Fast and accurate short read alignment with Burrows–Wheeler transform. Bioinformatics. 2009 Jul 15;25(14):1754-60."
 )
 
 
