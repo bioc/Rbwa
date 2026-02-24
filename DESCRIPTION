@@ -1,6 +1,6 @@
 Package: Rbwa
-Version: 1.15.0
-Date: 2023-06-29
+Version: 1.15.1
+Date: 2026-02-23
 Title: R wrapper for BWA-backtrack and BWA-MEM aligners
 Authors@R: c(
     person("Jean-Philippe", "Fortin", email = "fortin946@gmail.com", role = c("aut", "cre")))

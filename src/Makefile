@@ -42,10 +42,10 @@ all:$(PROG) ../inst/bwa clean
 
 
 bwa:libbwa.a $(AOBJS) main.o
-		$(CC) $(CFLAGS) $(DFLAGS) $(AOBJS) main.o -o $@ -L. -lbwa $(LIBS)
+		$(CC) $(CFLAGS) $(LDFLAGS) $(AOBJS) main.o -o $@ -L. -lbwa $(LIBS)
 
 bwamem-lite:libbwa.a example.o
-		$(CC) $(CFLAGS) $(DFLAGS) example.o -o $@ -L. -lbwa $(LIBS)
+		$(CC) $(CFLAGS) $(LDFLAGS) example.o -o $@ -L. -lbwa $(LIBS)
 
 libbwa.a:$(LOBJS)
 		$(AR) -csru $@ $(LOBJS)
