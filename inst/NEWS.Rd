@@ -3,6 +3,11 @@
 \encoding{UTF-8}
 
 
+\section{Version 1.15.3}{\itemize{
+\item Added Config field in DESCRIPTION file for newest BioC deployment
+}}
+
+
 \section{Version 1.15.1}{\itemize{
 \item Changed DFLAGS to LDFLAGS in Makefile. 
 }}
